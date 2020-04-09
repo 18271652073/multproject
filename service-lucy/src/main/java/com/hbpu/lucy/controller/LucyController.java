@@ -18,11 +18,11 @@ public class LucyController {
 
     @GetMapping(value = "/hi")
     public String hi(@RequestParam String name) {
-        return lucyService.hiService( name );
+        return lucyService.hiService(name);
     }
 
     @GetMapping(value = "/he")
     public String he(@RequestParam String name) {
-        return lucyService.home( name );
+        return lucyService.home(name);
     }
 }

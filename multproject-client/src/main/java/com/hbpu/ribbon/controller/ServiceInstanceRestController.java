@@ -18,11 +18,11 @@ class ServiceInstanceRestController {
 
     @GetMapping(value = "/hi")
     public String hi(@RequestParam String name) {
-        return helloService.hiService( name );
+        return helloService.hiService(name);
     }
 
     @GetMapping(value = "/he")
     public String he(@RequestParam String name) {
-        return helloService.home( name );
+        return helloService.home(name);
     }
 }
